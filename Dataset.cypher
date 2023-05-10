@@ -1,7 +1,3 @@
-    CREATE CONSTRAINT IF NOT EXISTS FOR (p:Person) REQUIRE (p.id) IS UNIQUE;
-    CREATE INDEX IF NOT EXISTS FOR (p:Person) ON (p.id);
-    CREATE CONSTRAINT IF NOT EXISTS FOR (m:Production) REQUIRE (m.title) IS UNIQUE;
-    CREATE INDEX IF NOT EXISTS FOR (m:Production) ON (m.title);
 //CREATE PRODUCT
     CREATE (Namkimcham:Production {name:'Nấm kim châm Hàn Quốc',img:'https://cdn.tgdd.vn/Products/Images/8779/226959/bhx/nam-kim-cham-han-quoc-tui-150g-202202151015334518.jpg',dsc:'Nấm kim châm Hàn Quốc được nuôi trồng và đóng gói theo những tiêu chuẩn nghiêm ngặt, bảo đảm các tiêu chuẩn xanh - sạch, chất lượng và an toàn với người dùng. Sợi nấm dai, giòn và ngọt, khi nấu chín rất thơm nên thường được lăn bột chiên giòn, nấu súp hoặc để nướng ăn kèm.'})
     CREATE (Bongcaitrang:Production {name:'Bông cải trắng',img:'https://cdn.tgdd.vn/Products/Images/8785/275320/bhx/bong-cai-trang-tui-500g-600g-1-bong-202303110829571023.jpg', dsc:'Bông cải trắng được nuôi trồng tại Trung Quốc và đóng gói theo tiêu chuẩn nghiêm ngặt, bảo đảm các tiêu chuẩn xanh - sạch, chất lượng và an toàn với người dùng. Hàm lượng dinh dưỡng cao, vị giòn ngọt nên thường được dùng để chế biến các món xào hoặc luộc, giúp tăng cường miễn dịch.'})
@@ -40,8 +36,8 @@
     CREATE (JessicaThompson:User {Username:'Jessica Thompson',gender:" ",phonenumber:" ",address:" ",birthday:1954,email:'JessicaThompson@gmail.com',password:'$2y$10$Dw8rknOSP1EUZb7nmXNvIuOoBtoCQbEB3u.8rlIbLYZNVLbq6L3qG'})
     CREATE (JamesThompson:User {Username:'James Thompson',gender:" ",phonenumber:" ",address:" ",birthday:1957,email:'JamesThompson@gmail.com',password:'$2y$10$Dw8rknOSP1EUZb7nmXNvIuOoBtoCQbEB3u.8rlIbLYZNVLbq6L3qG'})
     //Category
-    CREATE(:Category{category_name:"Trái cây"}),
-    CREATE(:Category{category_name:"Rau củ quả"}),
+    CREATE(:Category{category_name:"Trái cây"})
+    CREATE(:Category{category_name:"Rau củ quả"})
     //CREATE RELATION
     CREATE
     //RELATION PROVIDER
