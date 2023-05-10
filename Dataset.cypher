@@ -39,6 +39,7 @@
     CREATE(:Category{category_name:"Trái cây"})
     CREATE(:Category{category_name:"Rau củ quả"})
     //CREATE RELATION
+    Match (n:User) SET n.id = id(n)
     CREATE
     //RELATION PROVIDER
     (LillyW)-[:PROVIDER{amount:100,price:68000}]->(Buoidaxanh),
