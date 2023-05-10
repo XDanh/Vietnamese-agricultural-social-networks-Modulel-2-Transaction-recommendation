@@ -39,8 +39,9 @@
     CREATE (AngelaScope:User {Username:'Angela Scope',gender:" ",phonenumber:" ",address:" ",birthday:1954,email:'AngelaScope@gmail.com',password:'$2y$10$Dw8rknOSP1EUZb7nmXNvIuOoBtoCQbEB3u.8rlIbLYZNVLbq6L3qG'})
     CREATE (JessicaThompson:User {Username:'Jessica Thompson',gender:" ",phonenumber:" ",address:" ",birthday:1954,email:'JessicaThompson@gmail.com',password:'$2y$10$Dw8rknOSP1EUZb7nmXNvIuOoBtoCQbEB3u.8rlIbLYZNVLbq6L3qG'})
     CREATE (JamesThompson:User {Username:'James Thompson',gender:" ",phonenumber:" ",address:" ",birthday:1957,email:'JamesThompson@gmail.com',password:'$2y$10$Dw8rknOSP1EUZb7nmXNvIuOoBtoCQbEB3u.8rlIbLYZNVLbq6L3qG'})
-
-
+    //Category
+    CREATE(:Category{category_name:"Trái cây"}),
+    CREATE(:Category{category_name:"Rau củ quả"}),
     //CREATE RELATION
     CREATE
     //RELATION PROVIDER
