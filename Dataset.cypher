@@ -161,7 +161,7 @@ create(rau1:Category{category_name: "Củ, quả"})
     Set CaingotCL.id = id(CaingotCL)
     //----------------------------------------------------------------------------------------------
     //Howard-Bongcai-1
-create(orBongcaiH1:Order{status: "Đã đấu giá",order_quantity: 5,order_price: 20000})
+create(orBongcaiH1:Order{status: "Hoàn Thành",order_quantity: 5,order_price: 20000})
 Set orBongcaiH1.id = id(orBongcaiH1)
 create(orBongcaiH2:Order{status: "Hoàn Thành",order_quantity: 5,order_price: 22000})
 Set orBongcaiH2.id = id(orBongcaiH2)
@@ -184,7 +184,7 @@ Set orBongcaiH10.id = id(orBongcaiH10)
 //----------------------------------------------------------------------------------------------
 
     //Howard-Xoaihoaloc-2
-create(orXoaihoalocH1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 32000})
+create(orXoaihoalocH1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 32000})
 Set orXoaihoalocH1.id = id(orXoaihoalocH1)
 create(orXoaihoalocH2:Order{status: "Hoàn Thành",order_quantity: 4,order_price: 34000})
 Set orXoaihoalocH2.id = id(orXoaihoalocH2)
@@ -207,7 +207,7 @@ Set orXoaihoalocH10.id = id(orXoaihoalocH10)
 //----------------------------------------------------------------------------------------------
 
     //Howard-Carot-3
-create(orCarotH1:Order{status: "Đã đấu giá",order_quantity: 10,order_price: 24000})
+create(orCarotH1:Order{status: "Hoàn Thành",order_quantity: 10,order_price: 24000})
 Set orCarotH1.id = id(orCarotH1)
 create(orCarotH2:Order{status: "Hoàn Thành",order_quantity: 20,order_price: 27000})
 Set orCarotH2.id = id(orCarotH2)
@@ -230,7 +230,7 @@ Set orCarotH10.id = id(orCarotH10)
 //----------------------------------------------------------------------------------------------
 
     //Howard-Caibexanh-4
-create(orCaibexanhH1:Order{status: "Đã đấu giá",order_quantity: 30,order_price: 14000})
+create(orCaibexanhH1:Order{status: "Hoàn Thành",order_quantity: 30,order_price: 14000})
 Set orCaibexanhH1.id = id(orCaibexanhH1)
 create(orCaibexanhH2:Order{status: "Hoàn Thành",order_quantity: 5,order_price: 14000})
 Set orCaibexanhH2.id = id(orCaibexanhH2)
@@ -253,7 +253,7 @@ Set orCaibexanhH10.id = id(orCaibexanhH10)
 //----------------------------------------------------------------------------------------------
 
     //Howard-Xaurieng-5
-create(orXauriengH1:Order{status: "Đã đấu giá",order_quantity: 20,order_price: 80000})
+create(orXauriengH1:Order{status: "Hoàn Thành",order_quantity: 20,order_price: 80000})
 Set orXauriengH1.id = id(orXauriengH1)
 create(orXauriengH2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 80000})
 Set orXauriengH2.id = id(orXauriengH2)
@@ -276,7 +276,7 @@ Set orXauriengH10.id = id(orXauriengH10)
 //----------------------------------------------------------------------------------------------
 
     //LillyW-Caibexanh-1
-create(orCaibexanhL1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orCaibexanhL1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orCaibexanhL1.id = id(orCaibexanhL1)
 
 create(orCaibexanhL2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -309,7 +309,7 @@ Set or.id = id(or)
 //----------------------------------------------------------------------------------------------
 
     //LillyW-Xaurieng-2
-create(orXauriengL1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orXauriengL1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orXauriengL1.id = id(orXauriengL1)
 
 create(orXauriengL2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -341,7 +341,7 @@ Set o.id = id(o)
 //----------------------------------------------------------------------------------------------
 
     //LillyW-Dualuoi-3
-create(orDualuoi1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orDualuoi1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orDualuoi1.id = id(orDualuoi1)
 
 create(orDualuoi2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -373,7 +373,7 @@ Set orDualuoi10.id = id(orDualuoi10)
 //----------------------------------------------------------------------------------------------
 
     //LillyW-Bapcaithao-4
-create(orBapcaithao1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orBapcaithao1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orBapcaithao1.id = id(orBapcaithao1)
 
 create(orBapcaithao2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -404,7 +404,7 @@ create(orBapcaithao10:Order{status: "Hoàn Thành",order_quantity: 2,order_price
 Set orBapcaithao10.id = id(orBapcaithao10)
 //----------------------------------------------------------------------------------------------
     //StefanArndt-Caingot-1
-create(orCaingotSA1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orCaingotSA1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orCaingotSA1.id = id(orCaingotSA1)
 
 create(orCaingotSA2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -436,7 +436,7 @@ Set orCaingotSA10.id = id(orCaingotSA10)
 //----------------------------------------------------------------------------------------------
 
     //StefanArndt-Raumongtoi-2
-create(orRaumongtoiSA1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orRaumongtoiSA1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orRaumongtoiSA1.id = id(orRaumongtoiSA1)
 
 create(orRaumongtoiSA2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -468,7 +468,7 @@ Set orRa.id = id(orRa)
 //----------------------------------------------------------------------------------------------
 
     //StefanArndt-Xalachbupmo-3
-create(orXalachbupmoSA1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orXalachbupmoSA1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orXalachbupmoSA1.id = id(orXalachbupmoSA1)
 
 create(orXalachbupmoSA2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -500,7 +500,7 @@ Set orXalachbupmoSA10.id = id(orXalachbupmoSA10)
 //----------------------------------------------------------------------------------------------
 
 //ClintE-Caingot-1
-create(orCaingotCL1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orCaingotCL1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orCaingotCL1.id = id(orCaingotCL1)
 
 create(orCaingotCL2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -532,7 +532,7 @@ Set orCaingotCL10.id = id(orCaingotCL10)
 //----------------------------------------------------------------------------------------------
 
     //ClintE-Raumongtoi-2
-create(orRaumongtoiCL1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orRaumongtoiCL1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orRaumongtoiCL1.id = id(orRaumongtoiCL1)
 
 create(orRaumongtoiCL2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -564,7 +564,7 @@ Set orRaumongtoiCL10.id = id(orRaumongtoiCL10)
 //----------------------------------------------------------------------------------------------
 
     //ClintE-Xalachbupmo-3
-create(orXalachbupmoCL1:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(orXalachbupmoCL1:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set orXalachbupmoCL1.id = id(orXalachbupmoCL1)
 
 create(orXalachbupmoCL2:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
@@ -628,7 +628,7 @@ Set orNamkimcham10.id = id(orNamkimcham10)
 //----------------------------------------------------------------------------------------------
 
 //Keanu-Bongcai1
-create(or21000:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21000:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21000.id = id(or21000)
 create(or21001:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21001.id = id(or21001)
@@ -1187,7 +1187,7 @@ CREATE
 (Carrie)-[:`Mua`]->(orNamkimcham2),
 (Laurence)-[:`Mua`]->(orNamkimcham3),
 (Hugo)-[:`Mua`]->(orNamkimcham4),
-(LillyW)-[:`Mua`]->(or21004),
+(LillyW)-[:`Mua`]->(orNamkimcham5),
 (MikeN)-[:`Mua`]->(orNamkimcham6),
 (ClintE)-[:`Mua`]->(orNamkimcham7),
 (Howard)-[:`Mua`]->(orNamkimcham8),
