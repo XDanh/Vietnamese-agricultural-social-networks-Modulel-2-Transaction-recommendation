@@ -37,27 +37,37 @@ create(Keanu:User{email:"Keanu@gmail.com",password: "$2y$10$OaCiOrFC1rjiKB1Vck0S
 Set Keanu.id = id(Keanu)
 create(or21000:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
 Set or21000.id = id(or21000)
-create(or21001:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21001:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21001.id = id(or21001)
-create(or21002:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21002:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21002.id = id(or21002)
-create(or21003:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21003:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21003.id = id(or21003)
-create(or21004:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21004:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21004.id = id(or21004)
-create(or21005:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21005:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21005.id = id(or21005)
-create(or21006:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21006:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21006.id = id(or21006)
-create(or21007:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21007:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21007.id = id(or21007)
-create(or21008:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21008:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21008.id = id(or21008)
-create(or21009:Order{status: "Đã đấu giá",order_quantity: 2,order_price: 20000})
+create(or21009:Order{status: "Hoàn Thành",order_quantity: 2,order_price: 20000})
 Set or21009.id = id(or21009)
 create
 (Keanu)-[:`Đăng bán`]->(Bongcai)-[:`Thuộc loại`]->(rau),
-(Bongcai)-[:`Phiên giao dịch`]->(ses)<-[:`Đặt mua`]-(or21000),
+(Bongcai)-[:`Phiên giao dịch`{price: 20000,quantity: 20}]->(ses),
+(ses)<-[:`Đặt mua`]-(or21000),
+(ses)<-[:`Đặt mua`]-(or21001),
+(ses)<-[:`Đặt mua`]-(or21002),
+(ses)<-[:`Đặt mua`]-(or21003),
+(ses)<-[:`Đặt mua`]-(or21004),
+(ses)<-[:`Đặt mua`]-(or21005),
+(ses)<-[:`Đặt mua`]-(or21006),
+(ses)<-[:`Đặt mua`]-(or21007),
+(ses)<-[:`Đặt mua`]-(or21008),
+(ses)<-[:`Đặt mua`]-(or21009),
 (ses)<-[:REVIEWED{rating: 5}]-(RonH),
 (ses)<-[:REVIEWED{rating: 4}]-(Carrie),
 (ses)<-[:REVIEWED{rating: 4}]-(Laurence),
