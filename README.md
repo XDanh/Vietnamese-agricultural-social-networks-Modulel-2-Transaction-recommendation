@@ -18,7 +18,7 @@ Home Page) in combination with Laravel framework version 9.0 and the Neo4j datab
 management system. Comes with programming languages JavaScript, HTML, …
 # Installation
 ## Prerequisite
-PHP version ~8.0
+PHP version ~8.0|8.1
 
 ## Install guide
 Clone this project.
