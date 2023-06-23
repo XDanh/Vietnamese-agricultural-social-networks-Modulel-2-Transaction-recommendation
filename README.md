@@ -19,7 +19,7 @@ management system. Comes with programming languages JavaScript, HTML, …
 # Installation
 ## Prerequisite
 PHP version ~8.0|8.1
-
+Neo4j version ~4.0.2
 ## Install guide
 Clone this project.
 
