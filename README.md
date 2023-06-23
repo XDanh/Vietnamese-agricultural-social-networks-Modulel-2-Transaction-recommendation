@@ -1,9 +1,8 @@
 
 # Installation
 ## Prerequisite
-Check if you have `redis` installed, by running command: `redis-cli`
+PHP version ~8.0
 
-Note: If you're using Windows then install `Redis` may be harder than MacOS and Linux. Then you can consider running with Docker (as described in next section)
 ## Install guide
 Clone this project.
 
